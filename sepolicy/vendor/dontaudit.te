@@ -1,1 +1,5 @@
 dontaudit hal_wifi_default self:capability sys_module;
+
+dontaudit {
+  rild
+} default_prop:file r_file_perms;
