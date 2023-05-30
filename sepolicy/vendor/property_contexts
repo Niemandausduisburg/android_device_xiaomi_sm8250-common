@@ -41,6 +41,9 @@ vendor.powerhal.lpm                             u:object_r:vendor_power_prop:s0
 vendor.powerhal.init                            u:object_r:vendor_power_prop:s0
 vendor.powerhal.rendering                       u:object_r:vendor_power_prop:s0
 
+# IMEI
+ro.vendor.oem.                               u:object_r:vendor_deviceid_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay                          u:object_r:vendor_tee_listener_prop:s0
 
