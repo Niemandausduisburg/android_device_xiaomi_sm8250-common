@@ -489,6 +489,10 @@ PRODUCT_PACKAGES += \
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
+    
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
 
 # Vibrator
 ifneq ($(TARGET_IS_TABLET),true)
