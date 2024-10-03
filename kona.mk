@@ -290,6 +290,10 @@ PRODUCT_COPY_FILES += \
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+    
+# Remove unneeded apckages
+PRODUCT_PACKAGES += \
+    RemovePackagesXiaomi
 
 # QTI fwk-detect
 PRODUCT_PACKAGES += \
